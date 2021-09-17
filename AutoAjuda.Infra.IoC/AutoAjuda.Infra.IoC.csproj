@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AutoAjuda.Application\AutoAjuda.Application.csproj" />
+    <ProjectReference Include="..\AutoAjuda.Domain\AutoAjuda.Domain.csproj" />
+    <ProjectReference Include="..\AutoAjuda.Infra.Data\AutoAjuda.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
